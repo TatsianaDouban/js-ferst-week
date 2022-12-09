@@ -1,43 +1,17 @@
-
-let name;
-function yourname() {
-    name = prompt("Введите имя");
-    alert (`Привет ${name}`);
+function select(sender) {
+    sender.classList.add("selecter");
 }
 
- let x 
- let y
- let solver
+let buttonleft = document.querySelector(".left")
+let buttonRight = document.querySelector(".right")
 
-function sum(){
-    x = prompt("введите число")
-    y = prompt ("введите второе число")
-    solver = Number(x) + Number(y);
-    alert(`равно ${solver}`)
-}  
+function presRight (){
+    let img = document.querySelector("img");
+    img.src = "assects/img/twogirl.jpg";
 
-function minus(){
-    x = prompt("введите число")
-    y = prompt ("введите второе число")
-    solver = x-y;
-    alert(`равно ${solver}`)
 }
 
-function divitiom(){
-    x = prompt("введите число")
-    y = prompt ("введите второе число")
-    solver = x/y;
-    alert(`равно ${solver}`)
+function presLeft() {
+    let img = document.querySelector("img");
+    img.src = "assects/img/oneBoy.jpg";
 }
-
-function myltiply(){
-    x = prompt("введите число")
-    y = prompt ("введите второе число")
-    solver = x*y;
-    alert(`равно ${solver}`)
-}
-
-
- 
-
-

@@ -7,22 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .calculator {
-            margin-top: 30px;
+        .changeFon {
+            height: 200px;
+            width: 200px;
+            border: solid 2px black;
+        }
+
+        .selecter {
+            background-color: blue;
         }
     </style>
 </head>
 
-
 <body>
-    <button onclick="yourname()">Ваше имя</button>
-    <div class="calculator">
-        <button onclick="sum()">+</button>
-        <button onclick="minus()">-</button>
-        <button onclick="divitiom()">/</button>
-        <button onclick="myltiply()">*</button>
-    </div>
+    <div class="collection-slide">
 
+    </div>
+    <div class="changeFon" onclick="select(this)"> меняем цвет фона
+    </div>
+    <button class="right" onclick="presRight()">right</button>
+    <img src="assects/img/oneBoy.jpg" alt="Fotoboy" />
+    <button class="left" onclick="presLeft()">left</button>
+
+    </div>
 
 
 
