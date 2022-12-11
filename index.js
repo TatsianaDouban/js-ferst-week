@@ -15,3 +15,12 @@ function presLeft() {
     let img = document.querySelector("img");
     img.src = "assects/img/oneBoy.jpg";
 }
+
+function yourName() {
+    let a = document.getElementsByClassName("name-input")[0];
+    let b = a.value;   
+    a.value = "";
+}
+function showName() {
+    div.textContent = `Привет ${b}`;
+}
