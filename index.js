@@ -1,3 +1,12 @@
+
+    function yourame() {
+        let a = document.getElementsByClassName("name-input")[0];
+        let b = a.value;
+        document.getElementById("name-output").innerHTML = b;
+        a.value = "";
+    }
+
+
 function select(sender) {
     sender.classList.add("selecter");
 }
@@ -16,11 +25,5 @@ function presLeft() {
     img.src = "assects/img/oneBoy.jpg";
 }
 
-function yourName() {
-    let a = document.getElementsByClassName("name-input")[0];
-    let b = a.value;   
-    a.value = "";
-}
-function showName() {
-    div.textContent = `Привет ${b}`;
-}
+
+
