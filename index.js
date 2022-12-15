@@ -6,7 +6,6 @@
         a.value = "";
     }
 
-
 function select(sender) {
     sender.classList.add("selecter");
 }
